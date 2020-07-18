@@ -1,8 +1,11 @@
 # Uruchomienie programu
 * Pobierz  repozytorium, 
 * Następnie w konsoli uruchom polecenie composer install
-* Kolejno w konsoli poleceń uruchom polecenie php artisan serve
-* Aplikacja 
+* Skonfiguruj plik .env zgodnie ze swoim środowiskiem i utworzoną bazą danych
+* Uruchom polecenie php artisan key:generate
+* Uruchom polecenie php artisan migrate:fresh
+* Uruchom polecenie php artisan serve
+
 
 # Wnioski
 
