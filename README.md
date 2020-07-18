@@ -9,7 +9,7 @@
 
 # Wnioski
 
-W celu zbadania wydajności systemu przy dużej ilości produktów. Wygenerowałem 10.000 wpisów w tabeli products oraz 15.000 wpisów w tabeli categories. ( Niespójność w językach nazewnictwa w bazie danych wynika z standardów jakich używa Laravel - modele przyjmują tabele w liczbie mnogiej swoich nazw.
+W celu zbadania wydajności systemu przy dużej ilości produktów. Wygenerowałem 10.000 wpisów w tabeli products oraz 15.000 wpisów w tabeli categories. ( Niespójność w językach nazewnictwa w bazie danych wynika z standardów jakich używa Laravel - modele przyjmują tabele w liczbie mnogiej swoich nazw.)
 
 Do wygenerowania testowej bazy, posłużyłem się wbudowaną w Laravel biblioteką php faker, klasami factory oraz seedami dostepnymi w katalogu database.
 
